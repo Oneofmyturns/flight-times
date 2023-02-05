@@ -1,7 +1,7 @@
 # flight-times
 Data collected on flight times in the US by year, for the purpose of examining changes in number of flights and delays over time.
-Data is organized into folders by airport, then by Departures or Arrivals. 
-The filenames have the format 'AirportCode-Airline-Year-Arr.csv' or 'AirportCode-Airline-Year-Dep.csv'
+Data is organized into folders by airport, then by Departures, Arrivals, and Cancellations.
+The filenames have the format 'AirportCode-Airline-Year-Arr.csv', 'AirportCode-Airline-Year-Dep.csv', or 'AirportCode-Airline-Cncl.csv'.
 
 ### Data Attributes
 Carrier Code, Date (MM/DD/YYYY), Flight Number, Tail Number, Origin/Destination Airport, Scheduled arrival/departure time, Actual arrival/departure time, Scheduled elapsed time (Minutes), Actual elapsed time (Minutes), Arrival/Departure delay (Minutes), Delay Carrier (Minutes), Delay Weather (Minutes), Delay National Aviation System (Minutes), Delay Security (Minutes), Delay Late Aircraft Arrival (Minutes)
