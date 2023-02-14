@@ -46,8 +46,8 @@ Carrier Code, Date (MM/DD/YYYY), Flight Number, Tail Number, Origin/Destination 
 "WT19" - Precipitation(Unknown Source), 
 "WT21" - Ground Fog, 
 "WT22" - Ice Fog/Freezing Fog, 
-"WV01" - Fog, Ice/Freezing Fog, 
-"WV03" - Thunder
+"WV01" - Fog, Ice/Freezing Fog in Vicinity, 
+"WV03" - Thunder in Vicinity
 
 ### EDA
 Files are still in .csv format, but the data contained is sufficient for basic analysis of trends in differences in delay times and cancellations. The columns denoting the specific reasons for delays will also make for interesting analysis (e.g. even if delays themselves have not changed significantly, have the portion of delays due to security concerns or extreme weather changed?).
